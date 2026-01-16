@@ -5,7 +5,9 @@ Aim: To create a basic SPA using react
 
 A Single Page Application (SPA) is a web application that loads only one HTML page and dynamically updates the content without reloading the entire page. This project demonstrates the implementation of a simple SPA using React and React Router DOM.
 
-<img src="./screenshots/HOME PAGE.png" width="700"/>
+-------------------------------------------------------------------------------------
+
+<img src="./screenshots /HOME PAGE.png" width="700"/>
 
 <img src="./screenshots /ABOUT PAGE.png" width="700"/>
 
