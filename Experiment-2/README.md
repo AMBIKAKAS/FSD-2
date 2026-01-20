@@ -5,7 +5,7 @@ To design and implement reusable UI design components using React.
 UI components are the basic building blocks of any modern web application. This experiment demonstrates the creation of commonly used UI components such as Button, TextField, Select, Rating, and Checkbox using React functional components.
 
 -----------------------------------------------------------------------------
-<img src="" alt="Experiment Output" style="width:100%; height:auto;" />
+<img src="screenshots/Screenshot 2026-01-20 at 2.27.27 PM.png" alt="Experiment Output" style="width:100%; height:auto;" />
 
 
 UI Components Architecture
