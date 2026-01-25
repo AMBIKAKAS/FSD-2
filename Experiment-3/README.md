@@ -12,15 +12,6 @@ A Single Page Application (SPA) is a web application that loads only one HTML pa
 This experiment demonstrates how React enables SPA behavior and how React Router DOM is used to navigate between multiple views such as Home, About, and Contact without reloading the browser.
 
 
-Screenshots
-Home Page
-<img src="./screenshots/HOME PAGE.png" width="700"/>
-About Page
-<img src="./screenshots/ABOUT PAGE.png" width="700"/>
-Contact Page
-<img src="./screenshots/CONTACT PAGE.png" width="700"/>
-Architecture of Single Page Application (SPA)
-
 A SPA mainly works using the following three layers:
 
 1. Frontend (Client Side)
@@ -52,7 +43,10 @@ Data is exchanged in JSON format
 <img src="./screenshots/home.png" width="700"/>
 <img src="./screenshots/about.png" width="700"/>
 <img src="./screenshots/contact.png" width="700"/>
+
 --------------------------------------------------------
+
+
 SPA Working Flow
 
 User opens the website URL
