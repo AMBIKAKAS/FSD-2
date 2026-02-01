@@ -13,4 +13,4 @@ After completing this experiment, the learner will be able to:
 - Compare performance, scalability, and re-render behavior of useState, Context API, and Redux, and choose the appropriate state management approach for real-world React applications.
 
 # Screenshots:
-![Website Image](image.png)
+![website-img](image.png)
