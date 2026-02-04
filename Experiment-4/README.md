@@ -1,16 +1,42 @@
-# Learning Outcomes
+Experiment No.: 4
+
+Aim
+
+To implement state management in a React application using Redux and Context API for efficient handling of global application state.
+ 
+ -------------------------------------------------------------------------------------------------
+
+Objectives
+
+To understand the concept of state management in React applications.
+
+To implement global state management using React Context API.
+
+To implement centralized state management using Redux.
+
+To compare the working of local state, Context API, and Redux.
+
+To develop reusable components that consume global state.
+
+To manage data flow between multiple components effectively.
+
+--------------------------------------------------------------------------------------------------
+
+Learning Outcomes
 
 After completing this experiment, the learner will be able to:
 
-- Understand and implement local state management in React applications using the useState hook for component-level data handling.
+Understand the need for state management in large-scale React applications.
 
-- Differentiate between local and global state, and identify appropriate use cases for each based on data scope and reusability.
+Implement and use React Context API for global state handling.
 
-- Implement global state management using Context API, enabling state sharing across multiple components without prop drilling.
+Implement Redux store, reducers, and actions for managing application state.
 
-- Apply Redux for centralized state management, understanding actions, reducers, store, and how global state updates affect multiple components simultaneously.
+Pass and manage data across multiple components without prop drilling.
 
-- Compare performance, scalability, and re-render behavior of useState, Context API, and Redux, and choose the appropriate state management approach for real-world React applications.
+Differentiate between local state, Context API, and Redux approaches.
+
+Build scalable and maintainable React applications using proper state management techniques.
 
 # Screenshots:
 ![website-img](image.png)
