@@ -3,7 +3,7 @@ from flask_jwt_extended import (
     JWTManager, create_access_token,
     jwt_required, get_jwt_identity
 )
-import base64
+import os
 
 app = Flask(__name__)
 app.config["JWT_SECRET_KEY"] = "super-secret-key"
@@ -57,4 +57,5 @@ def home():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 10000))
+    app.run(host="0.0.0.0", port=port)
