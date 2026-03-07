@@ -189,5 +189,6 @@ curl http://127.0.0.1:5000/jwt-protected \
 
 This experiment demonstrates how authentication can be implemented in Flask applications using both **Basic Authentication and JWT-based authentication**. JWT provides a secure and scalable way to protect APIs and manage user sessions in modern web applications.
 
-![output 1](<Screenshot 2026-03-06 at 2.56.55 PM.png>)
-![output 2](<Screenshot 2026-03-06 at 2.55.38 PM.png>)
+<h3>Output</h3>
+<img src="screenshots/Screenshot 2026-03-06 at 2.56.50 PM.png" width="600">
+<img src="screenshots/Screenshot 2026-03-06 at 2.56.55 PM.png" width="600">
