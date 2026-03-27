@@ -53,5 +53,5 @@ def update_order_status(order_id):
 
 # IMPORTANT: Dynamic port for deployment
 if __name__ == '__main__':
-    port = int(os.getenv("PORT", 5001))
+    port = int(os.getenv("PORT", 3001))
     app.run(host='0.0.0.0', port=port)

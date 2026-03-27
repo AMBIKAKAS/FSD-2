@@ -13,7 +13,7 @@ customers = {
 # Use environment variable for Order Service URL (VERY IMPORTANT for deployment)
 ORDER_SERVICE_URL = os.getenv(
     "ORDER_SERVICE_URL",
-    "http://localhost:5001/orders"  # fallback for local testing
+    "http://localhost:3001/orders"  # fallback for local testing
 )
 
 @app.route('/')
@@ -46,5 +46,5 @@ def get_customer_orders(customer_id):
 
 # IMPORTANT: use PORT from environment (Render requirement)
 if __name__ == '__main__':
-    port = int(os.getenv("PORT", 5000))
+    port = int(os.getenv("PORT", 3000))
     app.run(host='0.0.0.0', port=port)
